@@ -29,7 +29,7 @@ if __name__ == '__main__':
     docsExts = [".txt" , ".ppt", ".pptx" , ".odt" , ".xlsx" , ".xls", ".ods", ".dot", ".doc",".docx", ".wbk", ".docm", ".doxt", ".dotm", ".docb" , ".xlt", ".xlm", ".xlms", ".xltx", ".xltm", ".xlsb", ".xla", ".xlam", ".xll", ".xlw", ".pot", ".pps",".pptx",".pptm",".potx",".potm",".ppam",".ppsx",".ppsm",".sldx",".sldm",".accdb",".accde",".accdt",".accdt",".accdr",".pub",".xps"]
     docs = [file for file in files if os.path.splitext(file)[1].lower() in docsExts]
 
-    videoExts = [".mp4", ".m4a", ".m4v", ".f4v", ".f4a", ".m4b", ".m4r", ".f4b", ".mov" , ".3gp", ".3gp2", ".3g2", ".3gpp", ".3gpp2", ".ogg", ".oga", ".ogv", ".ogx",".wmv", ".wma", ".asf*",".webm",".flv",".AVI",".OP1a", ".OP-Atom",".ts",".VOB"]
+    videoExts = [".mp4",".mkv", ".m4a", ".m4v", ".f4v", ".f4a", ".m4b", ".m4r", ".f4b", ".mov" , ".3gp", ".3gp2", ".3g2", ".3gpp", ".3gpp2", ".ogg", ".oga", ".ogv", ".ogx",".wmv", ".wma", ".asf*",".webm",".flv",".AVI",".OP1a", ".OP-Atom",".ts",".VOB"]
     video = [file for file in files if os.path.splitext(file)[1].lower() in videoExts]
 
     musicExts = [".3gp",".aa",".aac",".aax",".act",".aiff",".alac",".ape",".amr",".au",".awb",".dct",".dvf",".dss",".flac",".gsm",".iklax",".ivs",".m4a",".m4b",".m4p",".mmf",".mp3",".msv",".mpc",".ogg",".nmf",".nsf",".oga",".mogg",".opus",".ra",".raw",".rm",".rf64",".sln",".tta",".voc",".vox",".wav",".wma",".wv",".webm",".8svx",".cda"]
